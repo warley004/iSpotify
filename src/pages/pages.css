@@ -1,0 +1,64 @@
+
+.pages-body {
+    background-color: #000000; 
+    color: #FFFFFF; 
+    font-family: "Inter", sans-serif;;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+.login-container {
+    text-align: center;
+}
+.title {
+    font-size: 5em;
+    margin-bottom: 0.5em;
+}
+.subtitle {
+    font-size: 1.5em;
+    margin-bottom: 2em;
+}
+.input-box {
+    width: 95%;
+    padding: 0.5em;
+    margin-bottom: 1em;
+    border: none;
+    border-radius: 0;
+    height: 32.5px;
+    color: white;
+    background-color: #181818;
+}
+.input-box::placeholder{
+    color: #ffffff;
+    font-weight: 550;
+}
+.login-button {
+    width: 95%;
+    padding: 0.5em;
+    background-color: #1DB954; 
+    border: none;
+    border-radius: 30px;
+    color: white;
+    font-size: 1em;
+    cursor: pointer;
+    margin-bottom: 1em;
+    transition: transform 0.2s ease;
+}
+.login-button:hover{
+    cursor: pointer;
+    transform: translateY(-3px);
+    box-shadow: 0 0 10px rgba(1, 95, 6, 0.7);
+}
+.signup-link {
+    font-size: 0.9em;
+}
+.signup-link a {
+    color: #1DB954; 
+    text-decoration: none;
+}
+.signup-link a:hover{
+    cursor:pointer;
+    border-bottom: 1px solid #1DB954;
+}
